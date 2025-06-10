@@ -1,0 +1,7 @@
+
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://localhost:27017,localhost:27018,localhost:27019/mydatabase?replicaSet=rs0
+#      uri: mongodb://mongo1:27017,mongo2:27017,mongo3:27017/mydatabase?replicaSet=rs0
+      uri: mongodb://mongo1:27017/mydatabase?replicaSet=rs0
